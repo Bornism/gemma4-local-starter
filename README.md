@@ -136,6 +136,7 @@ PowerShell or Command Prompt instead of Git Bash.
 
 ## Project structure
 
+```
 gemma4-local-starter/
 ├── demo1_chat.py          # Basic streaming chat
 ├── demo2_summarize.py     # Document summarization
@@ -147,8 +148,7 @@ gemma4-local-starter/
 │   └── books.txt
 ├── requirements.txt       # Python dependencies
 └── README.md
-
----
+```
 
 ## What's next
 
