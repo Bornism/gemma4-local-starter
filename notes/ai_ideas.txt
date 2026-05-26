@@ -1,0 +1,15 @@
+AI Build Ideas 2026
+
+I want to build a RAG system over my own documents this year. The idea is simple:
+take all my notes, embed them using a local model, store them in a vector database,
+and build a chat interface that answers questions grounded in my own writing.
+No cloud API, no ongoing cost, completely private.
+
+After running Gemma 4 locally I realize the barrier to local AI is lower than I
+thought. The E4B model runs on my Windows laptop with 32GB RAM and no GPU support
+needed. The responses are slow on CPU but totally usable for personal productivity.
+
+The manufacturing use case is compelling. Air-gapped factory floors, data sovereignty
+requirements, latency-critical quality control — these are all problems that local
+open models solve better than cloud APIs. I want to write about this and build
+reference architectures for Google Cloud customers.
